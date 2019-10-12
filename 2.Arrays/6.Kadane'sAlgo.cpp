@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cmath>
+#include <algorithm>
 using namespace std;
 int main() {
     int a[5] = {-3,4,5,3,-2};
@@ -12,5 +14,6 @@ int main() {
         ms=max(ms,cs);
 
     }
+    cout << ms;
     return 0;
 }
